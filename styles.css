@@ -108,6 +108,7 @@ body {
   }
 
   .search-button {
+    flex: 1;
     width: 100%;
     display: block;
     margin: 0 auto;
