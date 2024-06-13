@@ -16,16 +16,15 @@ body {
 
 .container p {
   color: #ffffff;
-  font-size: 0px;
   margin-bottom: 20px;
-  margin-top: -5px;
+  margin-top: 0px;
 }
 
 .dates {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: -30px;
 }
 
 .dates .date-input-wrapper {
@@ -66,7 +65,7 @@ body {
 }
 
 .text p {
-  font-size: 14px;
+  font-size: 20px;
   margin-bottom: 0;
 }
 
@@ -131,6 +130,10 @@ body {
 }
 
  @media (min-width: 1024px) {
+  * {
+    margin-bottom: 0;
+  }
+  
   .dates {
     position: relative;
     margin-top: -60px;
@@ -140,7 +143,6 @@ body {
   .dates .date-input-wrapper {
     display: inline-block;
     width: 50%;
-    margin-bottom: 20px;
     font-size: 15px;
   }
 
@@ -160,6 +162,7 @@ body {
     display: inline-block;
     margin-left: 725px;
     margin-top: -56px;
+    margin-bottom: 0px;
     font-size: 10px;
     width: 20%;
   }
